@@ -101,3 +101,10 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.content {
+  margin: 0 auto; }
+  .content__image {
+    width: 100%;
+    max-width: 1102;
+    height: auto; }
