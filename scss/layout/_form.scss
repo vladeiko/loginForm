@@ -1,0 +1,25 @@
+.logo__image {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  zoom: 0.5;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-form {
+  // margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+// .title {
+//   // display: flex;
+// }
