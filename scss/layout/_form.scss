@@ -8,18 +8,24 @@
 .form-container {
   width: 100%;
   max-width: 620px;
+  min-width: 324px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .main-form {
   // margin: 0 auto;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
 // .title {
 //   // display: flex;
 // }
+
+.footer {
+  margin: 500px 30px 10px 30px;
+}
