@@ -102,9 +102,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.wrapper {
+  display: flex; }
+
+.yellow-line {
+  width: 8px;
+  background-color: #ffd900; }
+
 .content {
   margin: 0 auto; }
   .content__image {
-    width: 100%;
-    max-width: 1102;
-    height: auto; }
+    height: 100%;
+    max-height: 937px;
+    width: auto; }

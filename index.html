@@ -10,9 +10,30 @@
     <div class="wrapper">
       <div class="yellow-line"></div>
       <div class="form-container">
-        <form class="main-form"><h1 class="title">Login</h1></form>
+        <form class="main-form">
+          <div class="title">
+            <h1 class="title__header">Login</h1>
+            <p class="title__description">Need a Mailchimp account?</p>
+            <a href="#" class="form-link">Create an account</a>
+          </div>
+          <div class="input-username">
+            <label for="username-input" class="form-label">Username</label>
+            <input type="text" id="username-input" class="form-input" />
+          </div>
+          <div class="input-password">
+            <label for="password-input" class="form-label">Password</label>
+            <input type="password" id="password-input" class="form-input" />
+          </div>
+          <button class="login-button">Log In</button>
+          <input type="checkbox" id="keep" class="checkbox" />
+          <label for="keep">Keep me logged in</label>
+        </form>
       </div>
-      <div class="content-container"><div class="content"><img src="./img/content.jpeg" class="content__image"></div></div>
+      <div class="content-container">
+        <div class="content">
+          <img src="./img/content.jpeg" class="content__image" />
+        </div>
+      </div>
     </div>
   </body>
 </html>
