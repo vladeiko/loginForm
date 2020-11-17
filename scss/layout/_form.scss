@@ -48,11 +48,12 @@
 .input-username,
 .input-password {
   padding: 0 0 20px;
+  font-size: 18px;
   width: 100%;
 }
 
 .form-input {
-  padding: 10px 0 10px 0;
+  padding: 13px 0 13px 0;
   width: 100%;
   margin: 10px 0 0 0;
 }
@@ -91,6 +92,25 @@
   width: 100%;
 }
 
+.form-link {
+  color: rgb(0, 119, 134);
+  padding: 0 5px 0 5px;
+}
+
+.form-link:hover {
+  color: rgb(0, 68, 77);
+}
+
 .footer {
-  // margin: 250px 30px 10px 30px;
+  margin: 150px 0 0 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.footer-link {
+  color: grey;
+}
+
+.footer-link:hover {
+  color: rgb(0, 68, 77);
 }
