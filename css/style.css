@@ -117,11 +117,13 @@ body {
   height: auto;
   background-color: #ffd900; }
 
-.logo__image {
-  margin: 0 auto;
-  width: 80px;
-  height: 80px;
-  zoom: 0.5; }
+.logo {
+  margin: 10px; }
+  .logo__image {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    zoom: 0.5; }
 
 .form-container {
   width: 100%;
@@ -137,8 +139,25 @@ body {
   align-items: center;
   flex-direction: column; }
 
+.title {
+  box-sizing: border-box;
+  font-family: "Means Web", Georgia, Times, "Times New Roman", serif; }
+  .title__header {
+    padding: 10px 0 25px 0;
+    font-size: 42px;
+    font-weight: normal; }
+  .title__description {
+    font-size: 16px;
+    padding: 0 0 25px 0; }
+
+.input-username {
+  padding: 0 0 20px; }
+
+.form-input {
+  margin: 10px 0 0 0; }
+
 .footer {
-  margin: 500px 30px 10px 30px; }
+  margin: 100px 30px 10px 30px; }
 
 .content-container {
   width: 100%;
