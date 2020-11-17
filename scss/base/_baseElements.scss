@@ -3,6 +3,22 @@ body {
 }
 
 .wrapper {
-  height: 937px;
+  // height: 937px;
+  height: 100vh;
   display: flex;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .form-container {
+    height: 100%;
+  }
 }

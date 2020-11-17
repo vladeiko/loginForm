@@ -53,9 +53,16 @@
 }
 
 .form-input {
-  padding: 13px 0 13px 0;
+  padding: 10px;
+  font-size: 18px;
   width: 100%;
+  box-sizing: border-box;
   margin: 10px 0 0 0;
+}
+
+.form-input:focus {
+  border-radius: 2px;
+  border: solid 2px rgb(0, 119, 134);
 }
 
 .login-button {
@@ -113,4 +120,12 @@
 
 .footer-link:hover {
   color: rgb(0, 68, 77);
+}
+
+@media (max-width: 1024px) {
+  .form-container {
+    box-sizing: border-box;
+    max-width: 1024px;
+    // max-height: 1024px;
+  }
 }

@@ -6,12 +6,51 @@
 .content {
   display: flex;
   margin: 0 auto;
-  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
   height: 100%;
   background-color: rgb(215, 234, 204);
+  background-image: url("../img/content.jpeg");
+  background-size: cover;
+  background-attachment: local;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
 
-  &__image {
-    width: 720px;
-    height: 512px;
+.message {
+  text-align: center;
+  margin: 40px;
+
+  &__title {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  &__text {
+    font-size: 18px;
+    padding: 0 0 6px;
+  }
+}
+
+.message-button {
+  box-sizing: border-box;
+  padding: 8px 0 8px 0;
+  width: 100px;
+  border-radius: 2px;
+  border: solid 2px black;
+  background-color: rgb(215, 234, 204);
+  margin: 20px 0 30px 0;
+  box-shadow: unset;
+  font-size: 16px;
+}
+
+.message-button:hover {
+  color: rgb(70, 70, 70);
+}
+
+@media (max-width: 1024px) {
+  .content-container {
+    display: none;
   }
 }
